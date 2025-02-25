@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jupytext - An Introduction</title>
+    <title>Jupytext - Version Control for Jupyter Notebooks</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,23 +13,23 @@
         </header>
         <nav>
             <ul>
-                <li><a href="#">Introduction</a></li>
-                <li><a href="#">Installation & Setup</a></li>
-                <li><a href="#">Key Features</a></li>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#installation">Installation & Setup</a></li>
+                <li><a href="#features">Key Features</a></li>
+                <li><a href="#use-cases">Use Cases</a></li>
+                <li><a href="#conclusion">Conclusion</a></li>
+                <li><a href="#references">References</a></li>
             </ul>
         </nav>
         <main>
-            <section>
+            <section id="introduction">
                 <h2>Introduction</h2>
-                <p>Jupyter Notebooks are widely used to code. But their default .ipynb format is not ideal for 
-                version control, making collaboration difficult. Jupytext solves this issue by allowing 
-                notebooks to be stored as plain-text files like .py making them easier to track, edit, and share 
-                using Git.</p>
-                <p>In this article, we’ll explore Jupytext through code examples, screenshots, and practical 
-                applications.</p>
+                <p>Jupyter Notebooks are widely used to code. But their default <code>.ipynb</code> format is not ideal for version control, making collaboration difficult. 
+                <strong>Jupytext</strong> solves this issue by allowing notebooks to be stored as plain-text files like <code>.py</code>, making them easier to track, edit, and share using Git.</p>
+                <p>In this article, we’ll explore Jupytext through code examples, screenshots, and practical applications.</p>
             </section>
 
-            <section>
+            <section id="installation">
                 <h2>Installation & Setup</h2>
                 <h3>Installation</h3>
                 <p>If you're using Jupyter Notebook inside VS Code:</p>
@@ -53,7 +53,7 @@
                 <p>Now, Jupytext is installed and ready to use within VS Code Jupyter Notebook.</p>
             </section>
 
-            <section>
+            <section id="features">
                 <h2>Key Features & Explanation</h2>
                 <ul>
                     <li>Convert notebooks to plain-text formats (<code>.py</code>, <code>.md</code>, <code>.Rmd</code>) for better version control.</li>
@@ -61,8 +61,31 @@
                     <li>Edit notebooks in any text editor (VS Code, Vim, Sublime) without needing Jupyter.</li>
                     <li>Support multiple languages, including Python, R, and Julia.</li>
                 </ul>
-                <p>These features help in collaboration, version tracking, and integrating Jupyter notebooks into 
-                software development workflows.</p>
+            </section>
+
+            <section id="use-cases">
+                <h2>Use Cases</h2>
+                <ul>
+                    <li><strong>Version Control:</strong> Track notebook changes in a human-readable format using Git.</li>
+                    <li><strong>Collaboration:</strong> Edit notebooks with text editors like VS Code without requiring Jupyter.</li>
+                    <li><strong>Documentation:</strong> Store research notebooks as Markdown for better readability and accessibility.</li>
+                    <li><strong>Interoperability:</strong> Work with notebooks in different programming languages using a single tool.</li>
+                </ul>
+            </section>
+
+            <section id="conclusion">
+                <h2>Conclusion</h2>
+                <p>Jupytext makes Jupyter Notebooks more flexible, Git-friendly, and easier to manage. By converting <code>.ipynb</code> files into editable formats, it enhances collaboration. 
+                Whether you're working with large projects or simple research notes, Jupytext can significantly improve your workflow.</p>
+            </section>
+
+            <section id="references">
+                <h2>References & Further Reading</h2>
+                <ul>
+                    <li><a href="https://jupytext.readthedocs.io/">Jupytext Official Docs</a></li>
+                    <li><a href="https://github.com/mwouts/jupytext">GitHub Repository</a></li>
+                    <li><a href="https://jupyter.org/">Using Jupyter with Version Control</a></li>
+                </ul>
             </section>
         </main>
         <footer>
